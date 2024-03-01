@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: goldenrod;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        form {
+            display: grid;
+            gap: 10px;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        .C1{
+            max-width: 60PX;
+            background-color: rgb(99, 169, 24);
+            padding: 10px;
+            border-radius: 2px;
+            box-shadow: inset;
+            
+        }
+        
+    
+    </STYLE>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add Eco-Friendly Product </h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required>
+
+
+
+            <label for="productDetails">Product Details:</label>
+            <textarea id="productDetails" name="productDetails" rows="3" required></textarea>
+
+            <label for="productPhoto">Product  Photo:</label>
+            <input type="file" id="productPhoto" name="productPhoto" accept="image/*" required>
+
+            <label for="productCategory"> Product another uses:</label>
+            <input type="text" id="productCategory" name="productCategory" required>
+
+            <label for="productDetails">New Product Details:</label>
+            <textarea id="productDetails" name="productDetails" rows="3" required></textarea>
+
+            <label for="productPhoto">New Product  Photo:</label>
+            <input type="file" id="productPhoto" name="productPhoto" accept="image/*" required>
+
+            <div class="C1">
+                <a href="thanks.html">SUBMIT </a>
+                </div>
+    </div>
+</body>
+
+</html>

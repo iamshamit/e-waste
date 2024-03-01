@@ -10,92 +10,43 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <link rel="icon" href="recycle.png">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <style>
+      .section body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+      .section header, footer {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0;
+      }
+      .section main {
+          padding: 20px;
+      }
+      .section section {
+          margin-bottom: 20px;
+      }
+      .section h1, h2, h3 {
+          color: #333;
+      }
+      .section ol, ul {
+          list-style-type: none;
+          padding: 0;
+      }
+      .section li {
+          margin-bottom: 10px;
+      }
+  </style>
   </head>
-  <style>
-    #services-text {
-      width: 20%;
-      overflow: hidden;
-      display: inline-block;
-      border-right: 1px solid #000;
-      white-space: nowrap;
-      margin: 0 auto;
-      letter-spacing: 4px;
-      animation: services-text 2s steps(40, end);
-    }
-    @keyframes services-text {
-      0% {
-        width: 0;
-      }
-      100% {
-        width: 20%;
-      }
-    }
-    h3,
-    p {
-      display: inline;
-    }
-    h3 {
-      margin-left: 10px;
-    }
-  </style>
-  <style>
-    /* Add your CSS styles here */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 0 20px;
-    }
-    .services {
-      margin-top: 40px;
-    }
-    .services h2 {
-      margin-top: 0;
-    }
-    .service-item {
-      margin-bottom: 20px;
-    }
-    .service-item h3 {
-      margin-top: 0;
-    }
-    .service-item ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    .service-item ul li {
-      margin-bottom: 5px;
-    }
-    .why-choose-us {
-      margin-top: 40px;
-    }
-    .why-choose-us h2 {
-      margin-top: 0;
-    }
-    .why-choose-us ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    .get-started {
-      margin-top: 40px;
-      text-align: center;
-    }
-  </style>
   <body onload="n3()">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -131,58 +82,63 @@
         >
       </h2>
       
-      <div class="container">
-        <div class="services">
-          <div class="service-item">
-            <h3>1. Broken TVs</h3>
-            <img src="broken_tv_image.jpg" alt="Broken TVs Image">
+      <main>
+        <section class="section">
+            <h3>Buy and Sell Unusable Electronics</h3>
+            <ol>
+                <li><strong>Broken TVs</strong>
+                    <ul>
+                        <li>Explore a wide range of broken or damaged televisions of different brands and models.</li>
+                        <li>Find affordable options for repair projects or spare parts.</li>
+                    </ul>
+                </li>
+                <li><strong>Unusable Phones</strong>
+                    <ul>
+                        <li>Browse through our collection of obsolete or non-functional smartphones and feature phones.</li>
+                        <li>Sell your old devices to us or purchase devices for recycling purposes.</li>
+                    </ul>
+                </li>
+                <li><strong>Defective Computers</strong>
+                    <ul>
+                        <li>Discover a selection of faulty laptops, desktops, and computer peripherals.</li>
+                        <li>Sell your outdated or malfunctioning devices and contribute to sustainable e-waste management.</li>
+                    </ul>
+                </li>
+                <li><strong>Damaged Appliances</strong>
+                    <ul>
+                        <li>Shop for defective household appliances such as refrigerators, washing machines, and microwaves.</li>
+                        <li>Sell your broken appliances and reduce electronic waste by giving them a new life through repair or recycling.</li>
+                    </ul>
+                </li>
+                <li><strong>Electronic Components</strong>
+                    <ul>
+                        <li>Find a variety of electronic components and parts for DIY projects or repairs.</li>
+                        <li>Sell surplus components or buy what you need for your next electronic endeavor.</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        
+        <section>
+            <h3>Why Choose Us?</h3>
             <ul>
-              <li>Explore a wide range of broken or damaged televisions of different brands and models.</li>
-              <li>Find affordable options for repair projects or spare parts.</li>
+                <li><strong>Environmentally Friendly:</strong> By buying and selling e-waste through our platform, you're participating in a sustainable approach to waste management.</li>
+                <li><strong>Affordable Options:</strong> Access cost-effective solutions for repair, recycling, or repurposing of electronic devices.</li>
+                <li><strong>Convenient Transactions:</strong> Enjoy a hassle-free buying and selling experience with secure payment options and reliable shipping services.</li>
             </ul>
-          </div>
-          <div class="service-item">
-            <h3>2. Unusable Phones</h3>
-            <img src="unusable_phone_image.jpg" alt="Unusable Phones Image">
+        </section>
+        
+        <section>
+            <h3>How It Helps with E-Waste Management</h3>
+            <p>Electronic waste, or e-waste, is a growing concern worldwide due to its environmental impact and potential health hazards. Our platform helps address this issue in the following ways:</p>
             <ul>
-              <li>Browse through our collection of obsolete or non-functional smartphones and feature phones.</li>
-              <li>Sell your old devices to us or purchase devices for recycling purposes.</li>
+                <li>Encourages Recycling: By providing a marketplace for buying and selling e-waste, we promote the recycling and reuse of electronic devices instead of discarding them in landfills.</li>
+                <li>Reduces Resource Consumption: Reusing and repairing electronic devices reduces the need for new materials and energy-intensive manufacturing processes, thus conserving natural resources.</li>
+                <li>Prevents Pollution: Proper disposal and recycling of e-waste prevent hazardous materials from contaminating the environment, including soil and water sources.</li>
+                <li>Promotes Circular Economy: Our platform contributes to the development of a circular economy by extending the lifespan of electronic products through resale, repair, and refurbishment.</li>
             </ul>
-          </div>
-          <div class="service-item">
-            <h3>3. Defective Computers</h3>
-            <img src="defective_computer_image.jpg" alt="Defective Computers Image">
-            <ul>
-              <li>Discover a selection of faulty laptops, desktops, and computer peripherals.</li>
-              <li>Sell your outdated or malfunctioning devices and contribute to sustainable e-waste management.</li>
-            </ul>
-          </div>
-          <div class="service-item">
-            <h3>4. Damaged Appliances</h3>
-            <img src="damaged_appliance_image.jpg" alt="Damaged Appliances Image">
-            <ul>
-              <li>Shop for defective household appliances such as refrigerators, washing machines, and microwaves.</li>
-              <li>Sell your broken appliances and reduce electronic waste by giving them a new life through repair or recycling.</li>
-            </ul>
-          </div>
-          <div class="service-item">
-            <h3>5. Electronic Components</h3>
-            <img src="electronic_components_image.jpg" alt="Electronic Components Image">
-            <ul>
-              <li>Find a variety of electronic components and parts for DIY projects or repairs.</li>
-              <li>Sell surplus components or buy what you need for your next electronic endeavor.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="why-choose-us">
-          <h2>Why Choose Us?</h2>
-          <ul>
-            <li><strong>Environmentally Friendly:</strong> By buying and selling e-waste through our platform, you're participating in a sustainable approach to waste management.</li>
-            <li><strong>Affordable Options:</strong> Access cost-effective solutions for repair, recycling, or repurposing of electronic devices.</li>
-            <li><strong>Convenient Transactions:</strong> Enjoy a hassle-free buying and selling experience with secure payment options and reliable shipping services.</li>
-          </ul>
-        </div>
-      </div>
+        </section>
+    </main>
       
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

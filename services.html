@@ -44,6 +44,58 @@
       margin-left: 10px;
     }
   </style>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .services {
+      margin-top: 40px;
+    }
+    .services h2 {
+      margin-top: 0;
+    }
+    .service-item {
+      margin-bottom: 20px;
+    }
+    .service-item h3 {
+      margin-top: 0;
+    }
+    .service-item ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .service-item ul li {
+      margin-bottom: 5px;
+    }
+    .why-choose-us {
+      margin-top: 40px;
+    }
+    .why-choose-us h2 {
+      margin-top: 0;
+    }
+    .why-choose-us ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .get-started {
+      margin-top: 40px;
+      text-align: center;
+    }
+  </style>
   <body onload="n3()">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -79,69 +131,59 @@
         >
       </h2>
       
-    </section>
-      <br /><br /><br />
-      <div class="service">
-        <img src="th.jpg" alt="Service 1" />
-        <h3>Electronic Waste Collection</h3>
-        <br />
-        <p>
-          We provide convenient collection services for e-waste from residential
-          and commercial areas.
-        </p>
+      <div class="container">
+        <div class="services">
+          <div class="service-item">
+            <h3>1. Broken TVs</h3>
+            <img src="broken_tv_image.jpg" alt="Broken TVs Image">
+            <ul>
+              <li>Explore a wide range of broken or damaged televisions of different brands and models.</li>
+              <li>Find affordable options for repair projects or spare parts.</li>
+            </ul>
+          </div>
+          <div class="service-item">
+            <h3>2. Unusable Phones</h3>
+            <img src="unusable_phone_image.jpg" alt="Unusable Phones Image">
+            <ul>
+              <li>Browse through our collection of obsolete or non-functional smartphones and feature phones.</li>
+              <li>Sell your old devices to us or purchase devices for recycling purposes.</li>
+            </ul>
+          </div>
+          <div class="service-item">
+            <h3>3. Defective Computers</h3>
+            <img src="defective_computer_image.jpg" alt="Defective Computers Image">
+            <ul>
+              <li>Discover a selection of faulty laptops, desktops, and computer peripherals.</li>
+              <li>Sell your outdated or malfunctioning devices and contribute to sustainable e-waste management.</li>
+            </ul>
+          </div>
+          <div class="service-item">
+            <h3>4. Damaged Appliances</h3>
+            <img src="damaged_appliance_image.jpg" alt="Damaged Appliances Image">
+            <ul>
+              <li>Shop for defective household appliances such as refrigerators, washing machines, and microwaves.</li>
+              <li>Sell your broken appliances and reduce electronic waste by giving them a new life through repair or recycling.</li>
+            </ul>
+          </div>
+          <div class="service-item">
+            <h3>5. Electronic Components</h3>
+            <img src="electronic_components_image.jpg" alt="Electronic Components Image">
+            <ul>
+              <li>Find a variety of electronic components and parts for DIY projects or repairs.</li>
+              <li>Sell surplus components or buy what you need for your next electronic endeavor.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="why-choose-us">
+          <h2>Why Choose Us?</h2>
+          <ul>
+            <li><strong>Environmentally Friendly:</strong> By buying and selling e-waste through our platform, you're participating in a sustainable approach to waste management.</li>
+            <li><strong>Affordable Options:</strong> Access cost-effective solutions for repair, recycling, or repurposing of electronic devices.</li>
+            <li><strong>Convenient Transactions:</strong> Enjoy a hassle-free buying and selling experience with secure payment options and reliable shipping services.</li>
+          </ul>
+        </div>
       </div>
-      <br />
-      <div class="service">
-        <img src="NIMG.png" alt="Service 2" />
-        <h3>Eco-friendly Recycling</h3>
-        <br />
-        <p>
-          We ensure that the e-waste collected is recycled using environmentally
-          friendly methods.
-        </p>
-      </div>
-      <br />
-      <div class="service">
-        <img src="e-Waste-Management-img.png" alt="Service 3" />
-        <h3>Data Destruction</h3>
-        <br />
-        <p>
-          We offer secure data destruction services to protect your sensitive
-          information.
-        </p>
-      </div>
-      <br />
-      <div class="service">
-        <img src="th (7).jpg" alt="Service 4" />
-        <h3>E-Waste Disposal Consultation</h3>
-        <br />
-        <p>
-          We provide expert advice and consultation on the proper disposal of
-          e-waste to ensure compliance with regulations.
-        </p>
-      </div>
-      <br />
-      <div class="service">
-        <img src="education-recycling.jpg" alt="Service 5" />
-        <h3>Educational Programs</h3>
-        <br />
-        <p>
-          We conduct educational programs and workshops to raise awareness about
-          e-waste management and its impact on the environment.
-        </p>
-      </div>
-      <br />
-      <div class="service">
-        <img src="aa-768x512.jpg" alt="Service 6" />
-        <h3>Refurbishment and Resale</h3>
-        <br />
-        <p>
-          We refurbish and resell electronics that are still in working
-          condition, reducing e-waste and promoting reuse.
-        </p>
-      </div>
-      <br />
-    </section>
+      
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
